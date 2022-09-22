@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  hier je startniveau blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  (surface plane) 
  
 </details>
 
@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Bitvavo homepagina
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+   Support home pagina
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -57,7 +57,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  * Lastig te lezen door een laag contrast, voor mensen met onscherp zicht. (Licht grijze achtergrond/donkergrijze text)
+  * Screen-reader slaat de opties "Koersen" & "Informatie" in de nav-bar over.
+  
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
