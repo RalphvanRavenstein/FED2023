@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
    Support home pagina
-  <img src="readme-images/tweede-pagina-bitvavo.png" width="1936px" alt="support pagina">
+  <img src="readme-images/tweede-pagina-bitvavo.png" width="411px" alt="support pagina">
  
 </details>
 
