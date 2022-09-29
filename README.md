@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Bitvavo homepagina
-  <img src="images/FireShot Capture - Bitvavo.com.png" width="375px" alt="Home pagina">
+  <img src="readme-images/FireShot Capture - Bitvavo.com.png" width="411px" alt="Home pagina png">
 
   #### Screenshot(s) van de tweede pagina (small screen):
    Support home pagina
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/tweede-pagina-bitvavo.png" width="1936px" alt="support pagina">
  
 </details>
 
@@ -58,31 +58,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  * Lastig te lezen door een laag contrast, voor mensen met onscherp zicht. (Licht grijze achtergrond/donkergrijze text)
   * Screen-reader slaat de opties "Koersen" & "Informatie" in de nav-bar over.
+  * Soms staat de <img> boven de <h2> en dat helpt niet als je een screen-reader gebruikt.
   
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De screen-reader werkt niet al te goed met de website.
+  In de nav worden er 2 dropdown menus overgeslagen en leest eerst de img en dan de text bij artikels en carousellen
+  
+  xxxxxxxxxxxxxxxxxxxxx (wordt vervolgd: oplossing en foto's komen nog) xxxxxxxxxxxx
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ Website is goed te gebruiken.
+  
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ Website is goed te gebruiken. Knoppen zijn groot en makklijk te klikken.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ Website is slecht te gebruiken. 
+    Site heeft een laag contrast en gebruikt soms een klein lettertype. 
+    De site heeft een witte achtergrond en gebruikt veel velle kleuren. dit kan voor sommige pijnlijk zijn om lang naar te kijken.
+  
+  - oplossing: Kleuren gebruiken met een hoog contrast gebruikten, kleine letter vermijden. Mischien de optie geven tussen een Dark-mode, Colorblind-mode en een Low-visability-mode
+  
 
 </details>
 
