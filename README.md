@@ -94,13 +94,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="" width="411px" alt="breakdown van de hele pagina">
+  <img src="readme-images/fed breakdown schets.svg" width="411px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/nav-scherm-mobile" width="375px" alt="nav scherm breakdown">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dropdown.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -132,10 +132,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - read me uit werken
+  - HTML nav
+  - HTML 
+  - CSS
 
 </details>
 
@@ -150,7 +150,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+    * HTML
+    * Breakdown
+    * beginnen met CSS
 
   ### Agenda voor meeting
   samen met je groepje opstellen
