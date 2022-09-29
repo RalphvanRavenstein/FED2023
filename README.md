@@ -19,11 +19,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ralph van ravenstein
 
   #### Je startniveau:
-  hier je startniveau blauw
+  blauw
 
   #### Je focus:
   (surface plane) 
-  Ik wil een basic website kunnen maken.
+  Ik wil een basic website kunnen maken en focus me op de css.
  
 </details>
 
@@ -37,7 +37,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://bitvavo.com/nl : Nederlandse crypto broker 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Bitvavo homepagina
