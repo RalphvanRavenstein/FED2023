@@ -2,38 +2,66 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      /* startje */
+      --color-title:black;
+      --color-text:#7A8B9A;
+      --color-link:#0051FF;
+      --color-background:#eee;
+      --primary-color: #0051FF;
+      --second-color:#B3CBFF;
 
-button, summary {
-	cursor: pointer;
-}
 
+  }
+  
+  
+    
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  body {
+    margin:0;
+    color:var(--color-text);
+    background-color:var(--color-background);
 
+  }
+  
 
+  a{
+    color:#0051FF;
+  }
 
+  header{
+    height: 1em;
+    width: 100%;
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
+    min-height:4em;
+  padding:0 1em;
+  line-height:1;
+  
+  display:flex;
+  justify-content:space-between;
+  align-items:left; 
+  }
 
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
-body {
-  color:var(--color-text);
-  background-color:var(--color-background);
-}
-
+  nav{
+    
+  }
+  
