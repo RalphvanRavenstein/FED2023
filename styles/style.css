@@ -43,7 +43,6 @@
 
   }
   
-
   a{
     color:#0051FF;
   }
@@ -60,6 +59,15 @@
   justify-content:space-between;
   align-items:left; 
   }
+
+
+header a{
+    height: 1em;
+    width: 10em;
+    }
+
+
+
 
   nav{
     
