@@ -487,6 +487,8 @@ section:nth-of-type(6) ul{
   
   border-radius: 1em;
 
+  /* scrollbar-track-color: navy; */
+
 }
 
 /* Hoe haal ik de y-scrollbarr weg?? */
@@ -592,7 +594,7 @@ min-width: 40%;
 
 
 
-
+/* footer */
 
 
 footer {
@@ -611,7 +613,7 @@ footer > ul:nth-of-type(1) ul{
 
 footer > a img{
  width: 4em;
- 
+
 }
 
 
@@ -625,9 +627,15 @@ footer > ul:nth-of-type(2){
 
 footer > ul:nth-of-type(2) img{
   width: 2em;
-  
+  padding-top: 1em;
 }
 
+
+footer select{
+  width: 8em;
+  font-size: 1em;
+  
+}
 
 
 
