@@ -7,38 +7,40 @@
     <meta name="author" content="Ralph van Ravenstein">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bitvavo</title>
+    <title>Bitvavo - Homepage</title>
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="styles.css" rel="stylesheet">
     
     
 </head>
-
+ 
 <body>
     <header>
  <!-- logo -->
         <a href="index.html">
             <img src="images/logo-main.svg" alt="Bitvavo logo">
             </a>
-        <nav>
+       
            
            
-            <!--nav-opties hamburgermenu  -->
-            <!-- Hier kom ik niet uit )': '-->
-            
+           
+            <button>
                 <img alt="Hamburger Menu" src="images/navigatie-hamburgermenu.svg">
+              
+            </button>
 
-                <button aria-hidden="true"><img src="images/sluit-knop.svg" alt="stuil" />Sluit</button>
+        <nav>
+            <button ><img alt="stuil" src="images/sluit-knop.svg" ></button>
 
                 <ul>
-                    <li><a href="#">koersen</a></li>
+                    <li><a href="#">Koersen</a></li>
                     <li>
                     <details>
                         <summary>Producten</summary>
                         <ul>
-                            <li><a href="">Exchange</a></li>
-                            <li><a href="">Enterprise</a></li>
+                            <li><a href="#">Exchange</a></li>
+                            <li><a href="#">Enterprise</a></li>
                             </ul>
                     </details>    
                     </li>
@@ -47,26 +49,31 @@
                         <details>
                             <summary>Informatie</summary>
                             <ul>
-                                <li><a href="">Over Ons</a></li>
-                                <li><a href="">Vacatures</a></li>
-                                <li><a href="">Veiligheid</a></li>
+                                <li><a href="#">Over Ons</a></li>
+                                <li><a href="#">Vacatures</a></li>
+                                <li><a href="#">Veiligheid</a></li>
                             </ul>
                         </details>    
                         </li>
 
                     <li><a href="second.html">support</a></li>
-                    <!-- Hoe maak doe je de login en registreren? -->
+                 
                     <li><a href="#">Login</a></li>
-                        <!-- waarom valt registreren buiten de ham-menu? -->
+           
                     <li><a href="#">Registreren</a></li>
 
-                </ul>
-            
+                </ul>  
         </nav>
-
-
     </header>
 
+
+<main>
+
+
+    <!-- Verborgen text
+    <h1 class=""visual-hidden>Welcom op bitvavo</h1>
+    <h2 class=""visual-hidden>Welcom op bitvavo</h1>
+ -->
 
 
 
@@ -76,23 +83,87 @@
     <p>Koop,verkoop en bewaar meer dan 180 digitale valuta bij de grootste exchange
         van nederland.
     </p>
-    <button type="button" a href="#" >Begin met investeren</button>
+    <a href="#">Begin met investeren</a>
 </section>
 <!-- Einde - eeste gedeelte van de site -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- !!!! Probleem gebied !!!!-->
 <!-- Tabel -->
+    
 <section>
-<grid>
+<table>
+
+        <thead>
+        <tr>
+        <th>VALUTA</th>
+        <th>PRIJS</th>
+        <th>KOERS</th>
+        <th>GRAFIEK</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Bitcoin</td><td>€19.429,</td><td>-0,26%</td><td> <img src="images/tabel-graf1.svg"> </td></tr>
+        <tr>
+        <td>Ethereum</td><td>€1.331</td><td>+0,14%</td><td> <img src="images/tabel-graf2.svg"> </td></tr>
+        <tr>
+        <td>Cardano</td><td>€0,361</td><td>+3,52%</td><td> <img src="images/tabel-graf3.svg"> </td></tr>
+        <tr>
+        <td>Ripple</td><td>€0,443</td><td>-2,40%</td><td> <img src="images/tabel-graf4.svg"> </td></tr>
+        <tr>
+        <td>Chainlink</td><td>€6,331</td><td>+2,98</td><td> <img src="images/tabel-graf5.svg"> </td></tr>
+        <tr>
+        </tbody>
+        </tr>
+        </table>
 
 
-</grid>
 
+    <a href="#" >Bekijk alle 180 digitale valuta</a>
 
-    <button class="btn-trans" type="button" a href="#" >Bekijk alle 180 digitale valuta</button>
 </section>
+
 <!-- Eind Tabel -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,11 +178,11 @@
         <details>
             <summary>
                 <h2>Transparante en Lage Kosten</h2>
-                <img src="#" alt="Transparante en Lage Kosten">
+                <img src="images/picto1gedeelddoor.svg" alt="Transparante en Lage Kosten">
             </summary>
             <ul>
                 <li>
-                    <h3>De handelskosten variëren tussen de 0,03% en 0,25%. Daarom behoren de kosten van Bitvavo tot de laagste van de markt.</h3>
+                    <p>De handelskosten variëren tussen de 0,03% en 0,25%. Daarom behoren de kosten van Bitvavo tot de laagste van de markt.</p>
                 </li>
             </ul>
         </details>  
@@ -123,11 +194,11 @@
         <details>
             <summary>
                 <h2>Veiligheid & Accountgarantie</h2>
-                <img src="#" alt="Veiligheid & Accountgarantie">
+                <img src="images/picto2camera.svg" alt="Veiligheid & Accountgarantie">
             </summary>
             <ul>
                 <li>
-                    <h3>Veiligheid heeft onze hoogste prioriteit, daarom nemen we hierin veel maatregelen. Met Bitvavo Account Garantie is het daarnaast mogelijk om vergoed te worden tot €100.000 als een onbevoegde toegang krijgt tot uw account en uw tegoeden in beslag neemt.</h3>
+                    <p>Veiligheid heeft onze hoogste prioriteit, daarom nemen we hierin veel maatregelen. Met Bitvavo Account Garantie is het daarnaast mogelijk om vergoed te worden tot €100.000 als een onbevoegde toegang krijgt tot uw account en uw tegoeden in beslag neemt.</p>
                 </li>
             </ul>
         </details>  
@@ -139,11 +210,11 @@
         <details>
             <summary>
                 <h2>Compliance</h2>
-                <img src="#" alt="Compliance">
+                <img src="images/picto3vinkjes.svg" alt="Compliance">
             </summary>
             <ul>
                 <li>
-                    <h3>Bitvavo is geregistreerd bij De Nederlandsche Bank (DNB) en werkt met vooruitstrevende compliance voorschriften.</h3>
+                    <p>Bitvavo is geregistreerd bij De Nederlandsche Bank (DNB) en werkt met vooruitstrevende compliance voorschriften.</p>
                 </li>
             </ul>
         </details>  
@@ -198,11 +269,11 @@
            <details>
                <summary>
                    <h2>Handige Mobiele App</h2>
-                   <img src="#" alt="Telefoon">
+                   <img src="images/picto4telefoontje.svg" alt="Telefoon">
                </summary>
                <ul>
                    <li>
-                       <h3>Download onze mobiele app om rechtstreeks vanaf uw telefoon digitale valuta te kopen. Beheer uw digitale valuta vanaf uw telefoon, altijd en overal.</h3>
+                       <p>Download onze mobiele app om rechtstreeks vanaf uw telefoon digitale valuta te kopen. Beheer uw digitale valuta vanaf uw telefoon, altijd en overal.</p>
                    </li>
                </ul>
            </details>  
@@ -214,11 +285,11 @@
            <details>
                <summary>
                    <h2>Stakingopbrengsten</h2>
-                   <img src="#" alt="Euro teken">
+                   <img src="images/picto5euroteken.svg" alt="Euro teken">
                </summary>
                <ul>
                    <li>
-                       <h3>Met de stakingservice van Bitvavo kunt u een interessant rendement verdienen. Stake uw digitale valuta en profiteer van een opbrengst tot 10%.</h3>
+                       <p>Met de stakingservice van Bitvavo kunt u een interessant rendement verdienen. Stake uw digitale valuta en profiteer van een opbrengst tot 10%.</p>
                    </li>
                </ul>
            </details>  
@@ -230,11 +301,11 @@
            <details>
                <summary>
                    <h2>Directe Bankoverschrijving</h2>
-                   <img src="#" alt="Bliksem">
+                   <img src="images/picto6bliksem.svg" alt="Bliksem">
                </summary>
                <ul>
                    <li>
-                       <h3>Digitale valuta met euro's kopen is heel eenvoudig. Bitvavo ondersteunt 8 betaalmethoden, inclusief iDeal voor directe overschrijvingen.</h3>
+                       <p>Digitale valuta met euro's kopen is heel eenvoudig. Bitvavo ondersteunt 8 betaalmethoden, inclusief iDeal voor directe overschrijvingen.</p>
                    </li>
                </ul>
            </details>  
@@ -248,24 +319,25 @@
 <!-- Geen idee hoe dit moet - carosell -->
 
 <section>
+    <h2>informatie per ervaringsniveau</h2>
 <ul>
     <li>
-        <p>Voor beginners</p>
-        <img src="#" alt="Poppetje">
+        <h3>Voor beginners</h3>
+        <img src="images/picto7mannetje.svg" alt="Poppetje">
         <p>Nieuwe handelaren en investeerders zetten eenvoudig hun eerste stappen in de wereld van digitale valuta dankzij onze app.</p>
         <a href="#" >Aanmelden</a>
     </li>
 
     <li>
-        <p>Voor Ervaren Handelaren</p>
-        <img src="#" alt="Statestieken">
+        <h3>Voor Ervaren Handelaren</h3>
+        <img src="images/picto8stats.svg" alt="Statestieken">
         <p>Bitvavo biedt een geavanceerde interface en meerdere ordertypes. Handelen zoals u wilt, ook met gevorderde strategieën.</p>
         <a href="#" >Exchange</a>
     </li>
 
     <li>
-        <p>Voor Institutionele Partijen</p>
-        <img src="#" alt="boeken">
+        <h3>Voor Institutionele Partijen</h3>
+        <img src="images/picto9layers.svg" alt="boeken">
         <p>Bitvavo is een van de Europese marktleiders en biedt diensten op maat voor institutionele beleggers en cryptofondsen.</p>
         <a href="#" >Ensterprise diensten</a>
     </li>
@@ -296,6 +368,10 @@
     <a href="#" >Registreren.</a>
 </section>
 
+
+
+
+</main>
 <!-- Footer -->
 <footer>
 <ul>
@@ -303,17 +379,17 @@
     <details>
         <summary>Algemeen</summary>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Learn</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Support</a></li>
-            <li><a href="">Veiligheid</a></li>
-            <li><a href="">Affiliates</a></li>
-            <li><a href="">Enterprise</a></li>
-            <li><a href="">Over Ons</a></li>
-            <li><a href="">Vacatures</a></li>
-            <li><a href="">Landen</a></li>
-            <li><a href="">Pers</a></li>         
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Veiligheid</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Vacatures</a></li>
+            <li><a href="#">Landen</a></li>
+            <li><a href="#">Pers</a></li>         
         </ul>
     </details>  
     </li>
@@ -322,27 +398,28 @@
     <details>
         <summary>Handelen</summary>
         <ul>
-            <li><a href="">Inloggen</a></li>
-            <li><a href="">Aanmelden</a></li>
-            <li><a href="">Markten</a></li>
-            <li><a href="">Kosten</a></li>
-            <li><a href="">Status</a></li>
-            <li><a href="">Exchange</a></li>
-            <li><a href="">API Docs</a></li>      
+            <li><a href="#">Inloggen</a></li>
+            <li><a href="#">Aanmelden</a></li>
+            <li><a href="#">Markten</a></li>
+            <li><a href="#">Kosten</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Exchange</a></li>
+            <li><a href="#">API Docs</a></li>      
         </ul>
     </details>  
     </li>
+<!-- populair ontbreekt -->
 
     <li>
     <details>
         <summary>Juridisch</summary>
         <ul>
-            <li><a href="">Algemene Voorwaarden</a></li>
-            <li><a href="">Privacybeleid</a></li>
-            <li><a href="">Cookiebeleid</a></li>
-            <li><a href="">Risico's</a></li>
-            <li><a href="">Handelregels</a></li>
-            <li><a href="">Responsible Disclosure</a></li>  
+            <li><a href="#">Algemene Voorwaarden</a></li>
+            <li><a href="#">Privacybeleid</a></li>
+            <li><a href="#">Cookiebeleid</a></li>
+            <li><a href="#">Risico's</a></li>
+            <li><a href="#">Handelregels</a></li>
+            <li><a href="#">Responsible Disclosure</a></li>  
         </ul>
     </details>  
     </li>
@@ -356,43 +433,52 @@
 
 <p>support@bitvavo.com</p>
 
-<details>
-    <summary>nederlands</summary>
+<!-- dit is geen details. maar een select met option. value 0,1,2,3,4  -->
+<!-- <details>
+    <summary>Nederlands</summary>
     <ul>
-        <li><a href="">English</a></li>
-        <li><a href="">Français</a></li>
-        <li><a href="">Deutsch</a></li>
-        <li><a href="">Italiano</a></li>
-        <li><a href="">Italiano</a></li>
-        <li><a href="">Español</a></li>  
+        <li><a href="#">English</a></li>
+        <li><a href="#">Français</a></li>
+        <li><a href="#">Deutsch</a></li>
+        <li><a href="#">Italiano</a></li>
+
+        <li><a href="#">Español</a></li>  
     </ul>
-</details>  
+</details>   -->
+<!-- ^^^^^^ -->
+<select name="" id="">
+    <option value="">English</option>
+    <option value="">English</option>
+    <option value="">English</option>
+    <option value="">English</option>
+    <option value="">English</option>
+    <option value="">English</option>
+</select>
+
 
 <ul>
-    <li><a href="">
-        <img src="images/" alt="Twitter">
+    <li><a href="#">
+        <img src="images/social-twitter.svg" alt="Twitter">
         </a> </li>
-    <li><a href="">
-        <img src="images/" alt="LinkedIn">
+    <li><a href="#">
+        <img src="images/social-linkedin.svg" alt="LinkedIn">
         </a> </li>
-    <li><a href="">
-        <img src="images/" alt="Facebook">
+    <li><a href="#">
+        <img src="images/social-facebook.svg" alt="Facebook">
         </a> </li>
-    <li><a href="">
-        <img src="images/" alt="Instagram">
+    <li><a href="#">
+        <img src="images/social-instagram.svg" alt="Instagram">
         </a> </li>
 </ul>
     
-<p><strong>&#169; Bitvavo B.V. 2022</strong>Registered at the Dutch Chamber of Commerce, number 68743424. Trading digital assets such as Bitcoin involves significant risks.
+<p><em>&#169; Bitvavo B.V. 2022</em>Registered at the Dutch Chamber of Commerce, number 68743424. Trading digital assets such as Bitcoin involves significant risks.
 
 </p>
 
 </footer>
 
-
-
-
-
+<script src="script.js"></script>
+    
 </body>
 
   
