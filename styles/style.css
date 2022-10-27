@@ -594,6 +594,16 @@ min-width: 40%;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 
@@ -634,8 +644,20 @@ footer > ul:nth-of-type(2) img{
 footer select{
   width: 8em;
   font-size: 1em;
-  
+
 }
 
 
+
+
+
+/* extratje's */
+
+
+
+
+
+@media (min-width: 50em){
+
+}
 
