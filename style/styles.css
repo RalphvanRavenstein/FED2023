@@ -13,17 +13,17 @@
   
 @font-face{
     font-family: Gilroy-Regular;
-  src:url(fonts/Gilroy-Regular.ttf); 
+  src:url(../fonts/Gilroy-Regular.ttf); 
 }
 
 @font-face{
   font-family: Gilroy-Medium;
-  src:url(fonts/Gilroy-Medium.ttf);
+  src:url(../fonts/Gilroy-Medium.ttf);
 }
 
 @font-face{
   font-family: Intern-Regular;
-  src:url(fonts/Inter-Regular.ttf);
+  src:url(../fonts/Inter-Regular.ttf);
 }
 
 
