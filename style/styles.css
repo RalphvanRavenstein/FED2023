@@ -101,7 +101,7 @@ header button{
 header button img{
   width: 2em;
   text-decoration: none;
-  
+ 
 }
 
 
@@ -114,11 +114,15 @@ header nav{
   right:0;
   transform:translateX(100%);
   transition-duration: 0.5s;
-
+  
 }
+
+
 
 header nav.open{
 transform:translateX(0%);
+
+
 
 }
 
@@ -127,6 +131,7 @@ background-color: transparent;
 position: absolute;
 right:0;
 padding: 1em;
+
 }
 
 
@@ -135,21 +140,20 @@ padding: 1em;
 
 nav>ul{
 display: grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(2, 60%);
 grid-template-rows: repeat(4, minmax(1em,auto));
 grid-column-gap: 0.5em;
 grid-row-gap: 2em;
-width: 100%;
-max-width: 405px;
-overflow: hidden;
+width: auto;
 padding-top: 2em;
-padding-left: 1.5em
+padding-left: 1.5em;
+padding-right: 1.5em;
 
 }
 
 nav li{
   display: flex;
- 
+  /* width: auto; */
 }
 
 
@@ -187,7 +191,8 @@ nav li:nth-of-type(5){
   background-color:var(white);
   border-radius: 0.5em 0.5em ;
   border: 1px solid lightgray;
-  width: 80%;
+  width: 90%;
+  min-width: 6em;
   height: 3em;
   text-align: center;
   grid-area: 5 / 1 / 6 / 2; 
@@ -200,7 +205,8 @@ nav li:nth-of-type(5){
 nav li:nth-of-type(6){
   background-color:var(--primary-color);
   border-radius: 0.5em 0.5em ;
-  width: 80%;
+  width: 90%;
+  min-width: 6em;
   height: 3em;
   text-align: center; 
   grid-area: 5 / 2 / 6 / 2;
@@ -212,10 +218,12 @@ nav li:nth-of-type(6){
 
 nav li:nth-of-type(5) a{
   color: var(--primary-color);
+
 }
 
 nav li:nth-of-type(6) a{
   color: var(--color-background);
+
 }
 
 nav li:nth-of-type(5) a:hover{
@@ -635,11 +643,21 @@ section:nth-of-type(7)  {
   padding-bottom: 5em;
 }
 
-section:nth-of-type(7) p:first-of-type {
+section:nth-of-type(7) h3{
 font-family: Gilroy-Medium;
+font-size: 2em;
+color: var(--color-main);
 padding-top: 5em;
-padding-bottom: 5em;
+padding-bottom: 1em;
+text-align: center;
 }
+
+section:nth-of-type(7) p{
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  }
 
 section:nth-of-type(7) a{
   display: flex;
@@ -649,10 +667,10 @@ section:nth-of-type(7) a{
   color: white;
   border-radius: 0.5em;
   height: 3em;
- margin-right: 20%;
- margin-left: 20%;
-max-width: 80%;
-min-width: 40%;
+  margin-right: 20%;
+  margin-left: 20%;
+  max-width: 80%;
+  min-width: 40%;
 }
 
 
@@ -685,7 +703,30 @@ min-width: 40%;
 
 
 footer {
-  padding: 2em;
+  padding: 1em;
+}
+
+footer p{
+  padding-top: 1em;
+  font-family: Gilroy-Regular;
+  font-size: 0.8em;
+}
+
+footer p em{
+  font-weight: bold;
+}
+
+footer ul li{
+  padding-top: 0.5em;
+}
+
+footer ul li a{
+  padding-left: 1em;
+  color: var(--color-text);
+}
+
+footer ul li a:hover{
+ color: var(--color-main);
 }
 
 
@@ -695,12 +736,13 @@ footer > ul:nth-of-type(1){
 
 footer > ul:nth-of-type(1) ul{
   padding:0;
+  padding-bottom: 1em;
 }
 
 
 footer > a img{
- width: 4em;
-
+  width: 4em;
+  padding-top: 1em;
 }
 
 
@@ -710,6 +752,7 @@ footer > ul:nth-of-type(2){
   margin:0;
   justify-content: space-around;
   width: 50%;
+  padding-left: 1em;
 }
 
 footer > ul:nth-of-type(2) img{
@@ -721,7 +764,11 @@ footer > ul:nth-of-type(2) img{
 footer select{
   width: 8em;
   font-size: 1em;
+  margin-top: 2em;
+}
 
+footer ul:last-of-type{
+  max-width: 15em;
 }
 
 
@@ -756,20 +803,24 @@ footer section:last-of-type > p{
 
 
 
-/* @media (min-width: 50em) {
+@media (min-width: 26.25em) {
 
-*{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+  nav.open{
+    display: none;
+  }
+
+  header button{
+    display: none;
+  }
+
+  nav ul li{
+    flex-direction: row;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+
+
 }
-
-nav ul{
-  float: right;
-  padding-right: 1em;
-}
-
-nav>ul>li{
-  display: inline-block;
-} */
