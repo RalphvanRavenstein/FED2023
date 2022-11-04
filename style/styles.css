@@ -533,6 +533,39 @@ section:nth-of-type(4) p {
 
 
 
+section:nth-of-type(4){
+  text-align:center;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(4)>a {
+  display:inline-block;
+  justify-content: center;
+	width:1em;
+	height:1em;
+	border-radius:50%;
+ 
+	
+	background-color:rgb(136, 136, 136);
+	
+	overflow:hidden;
+	color:transparent;
+	user-select:none;
+
+  position: relative;
+
+
+  text-decoration: none;
+
+}
+
+section:nth-of-type(4)>a:hover {
+  color: #959595;
+  background-color: #959595;
+  text-decoration: none;
+
+}
+
 
 
 
@@ -621,7 +654,39 @@ section:nth-of-type(6) li img {
 
 
 
+section:nth-of-type(6){
+  text-align:center;
+  
+  padding-bottom: 1em;
+}
 
+section:nth-of-type(6) >a {
+  display:inline-block;
+  justify-content: center;
+	width:1em;
+	height:1em;
+	border-radius:50%;
+ 
+	
+	background-color:rgb(136, 136, 136);
+	
+	overflow:hidden;
+	color:transparent;
+	user-select:none;
+  position: absolute;
+
+
+  text-decoration: none;
+
+}
+
+
+section:nth-of-type(6)>a:hover {
+  color: #959595;
+  background-color: #959595;
+  text-decoration: none;
+
+}
 
 
 
