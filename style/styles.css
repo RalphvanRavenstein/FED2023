@@ -281,6 +281,50 @@ nav details a{
 
 
 
+@media (min-width: 46em) {
+
+  header nav{
+   position: static;
+   transform: none;
+
+   display:flex;
+   align-items: center;
+  }
+
+  header > button {
+    display:none;
+  }
+
+  header nav > button  {
+    display:none;
+  }
+
+  header nav > ul {
+    display:flex;
+    align-items: start;
+    max-height:6em;
+    padding:0;
+  }
+
+  nav>ul>li:nth-child(-n+4) {
+    padding:0;
+    border:none;
+    height:3em;
+    padding-top:1em;
+  }
+
+  header nav > ul li {
+    display:list-item;
+  }
+
+  header nav > ul ul {
+    /* display:none; */
+  }
+
+
+
+}
+
 
 
 
@@ -865,27 +909,5 @@ footer section:last-of-type > p{
 
 
 
-/* 
 
 
-@media (min-width: 26.25em) {
-
-  nav.open{
-    display: none;
-  }
-
-  header button{
-    display: none;
-  }
-
-  nav ul li{
-    flex-direction: row;
-  }
-
-  nav ul li {
-    display: block;
-  }
-
-
-
-} */
