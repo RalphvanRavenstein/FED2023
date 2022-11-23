@@ -303,6 +303,61 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+## Eindgesprek - herkansing(week 6)
+
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  
+  <img src="readme-images/her-home-gehele_pagina.png" width="375px" alt="home">
+
+   <img src="readme-images/her-supp-gehele_pagina.png" width="375px" alt="support">
+
+  ### Dit ging goed/Heb ik geleerd: 
+  Korte omschrijving met plaatjes
+  
+  De support pagina ging in mijn opzichte erg goed. ik ben erg blij met het resultaat.
+  
+  
+  <img src="readme-images/her-supp-volledig-trots_op.png" width="375px" alt="top">
+
+  Daarnaast ben ik ook erg trots op vele andere kleinere dingen. Problemen die ikzelf heb kunnen oplossen door middel out-of-the-box en logisch na te denken.
+  Ik ben tegen ontelbare problemen opgelopen en ben versteld dat dit het resultaat is geworden.
+
+  ### Dit was lastig/Is niet gelukt:
+  Korte omschrijving met plaatjes
+
+  
+  het is mij niet gelukt om op de homepagina een foto te krijgen aan de rechterkant.
+    <img src="readme-images/her-home-section1-foto-werkt_niet.png" width="375px" alt="nope">
+  deze foto moest erin
+     <img src="images/homepage-foto-nr1-hoofd.svg" width="375px" alt="foto :(">
+  
+  
+  daarnaast is het mij niet gelukt om op de support pagina de icons boven de h3 te ordenen :(
+  <img src="readme-images/her-supp-section1-icons-werkt_niet.png" width="375px" alt="icons onder h3">
+  
+  
+    Voor een of andere reden kreeg ik geen puntjes onder deze carlous...
+  <img src="readme-images/nietgelukt1.png" width="411px" alt="ging niet goed2">
+ 
+</details>
+
+  
+  
+  
+  
+  
 
 ## Bronnenlijst
 
