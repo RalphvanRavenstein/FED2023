@@ -333,7 +333,7 @@ nav details a{
 
   section:first-of-type h1{
     text-align: left;
-    padding-left: 1em;
+    padding-left: 1.2em;
   }
 
   section:first-of-type p{
@@ -341,11 +341,12 @@ nav details a{
     padding-bottom: 1.5em;
   }
 
-
+/* waaaaarom werk je niet!!!!!! >:( */
   section:first-of-type > img{
     display: flex;
     float: right;
-    width: 50%;
+    width: 20em;
+    height: 20em;
 
       }
 
