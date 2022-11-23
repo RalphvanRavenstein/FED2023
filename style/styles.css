@@ -906,6 +906,7 @@ footer select{
   width: 8em;
   font-size: 1em;
   margin-top: 2em;
+  /* bottom: 100%; */
 }
 
 footer ul:last-of-type{
