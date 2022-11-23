@@ -485,29 +485,54 @@ main section h2 {
   main section:nth-of-type(2){
    display: flex;
    align-items: center;
-
+   justify-content: space-around;
 
 
   }
 
   main section:nth-of-type(2) ul{
     display: inline-flex;
-    
+    background-color: lightgray;
+    padding: 1em;
+    width: 100%;
   }
 
   main section:nth-of-type(2) li{
-    display: inline-block;
-    justify-content: space-around;
+    display: inline-flex;
     text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 100%;
+    align-content: center;
+
   }
   
-  main section:nth-of-type(2) a h3{
-    order:-1;
+  main section:nth-of-type(2) a{
+    padding-top: 1em;
+    border-radius: 0.5em;
+    background-color: var(--color-background);
+    width: 100%;
+    display: inline-block;
+    flex-direction: row-reverse;
+    
+  }
+
+  main section:nth-of-type(2)  h3{
+    color: var(--color-main);
+    order:-1;  
+  }
+
+  main section:nth-of-type(2) a h3:hover{
+    color: var(--color-link);
   
   }
 
-  main section:nth-of-type(2) img{
-    width: 1em;
+  main section:nth-of-type(2) li a img{
+    width: 3em;
+    height: 3em;
+  
+    justify-content: center;
+    
 
   }
   
