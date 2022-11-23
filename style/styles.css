@@ -345,7 +345,7 @@ nav details a{
   section:first-of-type > img{
     display: flex;
     float: right;
-    width: 100%;
+    width: 50%;
 
       }
 
@@ -487,7 +487,7 @@ table{
   text-align: center;
   padding-top: 4em;
   width: 80%;
-  margin: 2em auto;
+  margin:auto;
 }
 
 
