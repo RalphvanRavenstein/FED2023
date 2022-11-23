@@ -327,9 +327,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving met plaatjes
   
   De support pagina ging in mijn opzichte erg goed. ik ben erg blij met het resultaat.
-  
-  
-  <img src="readme-images/her-supp-volledig-trots_op.png" width="375px" alt="top">
+  small screen
+  <img src="readme-images/her-supp-volledig-trots_op.png" width="375px" alt="top 1">
+  wide screen
+  <img src="readme-images/her-supp-gehele_pagina-2.png" width="375px" alt="top 2">
 
   Daarnaast ben ik ook erg trots op vele andere kleinere dingen. Problemen die ikzelf heb kunnen oplossen door middel out-of-the-box en logisch na te denken.
   Ik ben tegen ontelbare problemen opgelopen en ben versteld dat dit het resultaat is geworden.
